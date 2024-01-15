@@ -1,6 +1,7 @@
 
 ## create conda environment with python3.8
 conda create --name speech-prompting python=3.8
+
 conda activate speech-prompting
 
 ## clone this repo somewhere in the file system. Don't forget to add the path in the files

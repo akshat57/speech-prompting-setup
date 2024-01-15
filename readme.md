@@ -11,9 +11,13 @@ https://github.com/facebookresearch/textlesslib/tree/main/examples/twist
 
 ## after installing dependencies above, download models in the models models directory. Download the following 4 models to start. The complete list of models is in models/twist_models.py
 cd models
+
 wget https://dl.fbaipublicfiles.com/textless_nlp/twist/speech_tokenizer/mhubert_base_25hz_cp_mls_cv_sp_fisher.pt
+
 wget https://dl.fbaipublicfiles.com/textless_nlp/twist/speech_tokenizer/mhubert_base_25hz_cp_mls_cv_sp_fisher_L11_km500.bin
+
 wget https://dl.fbaipublicfiles.com/textless_nlp/twist/lms/TWIST-350M.zip
+
 unzip -r TWIST-350M.zip
 
 ## define the appropriate locations in evaluate file
